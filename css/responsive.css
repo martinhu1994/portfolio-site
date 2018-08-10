@@ -11,7 +11,7 @@ main,
 
 @media screen and (max-width: 330px) {
     .header__icon {
-        font-size: 3em;
+        font-size: 3em; 
     }
 
     .text__name {
@@ -67,7 +67,7 @@ main,
     }
 
     .item__movie {
-        margin-right: 2%;
+        margin-right: 2%; 
     }
 }
 
