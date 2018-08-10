@@ -1,0 +1,65 @@
+body,
+.header,
+main,
+.profile,
+.profile__item,
+.work {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 330px) {
+    .item__text {
+        font-size: 12px;
+    }
+
+    .footer a {
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    body {
+        width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .header {
+        margin: 1em 0 0 20%;
+        min-height: 60px;
+    }
+
+    .profile {
+        width: 20%;
+        padding-right: 0.5em;
+        margin: 0;
+        border: none;
+    }
+
+    .profile__image {
+        width: 100%;
+    }
+
+    .profile ul {
+        margin: 1em 0;
+        width: 100%;
+    }
+
+    .content {
+        width: 80%;
+        margin: 0;
+    }
+
+    .work__item {
+        width: 31%;
+    }
+
+    .item__portfolio {
+        margin: 0 3.5% 1em;
+    }
+
+    .main__image {
+        display: block;
+    }
+}
