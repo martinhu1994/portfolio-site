@@ -11,7 +11,7 @@ main,
 
 @media screen and (max-width: 330px) {
     .header__icon {
-        font-size: 3em; 
+        font-size: 3em;
     }
 
     .text__name {
@@ -50,7 +50,6 @@ main,
     }
 
     .responsive__placement {
-        display: block;
         width: 70%;
         padding: 0.5em 0 0.5em 0.5em;
         border-bottom: solid 2px #7d97ad;
@@ -67,14 +66,14 @@ main,
     }
 
     .item__movie {
-        margin-right: 2%; 
+        margin-right: 2%;
     }
 }
 
 
 @media screen and (max-width: 600px) {
     .profile__item {
-        padding-bottom: 0.2;
+        padding-bottom: 0.2em;
     }
 
     .profile__item {

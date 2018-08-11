@@ -4,7 +4,7 @@
  *
  */
 
-body, 
+body,
 html {
     margin: 0;
     padding: 0 0.5em;
@@ -36,7 +36,7 @@ a {
 }
 
 .header__icon {
-    font-size: 4em; 
+    font-size: 4em;
     color: #02b3e4;
     width: 20%;
 }
@@ -207,7 +207,7 @@ main {
 }
 
 .footer li {
-    display: inline-block;
+    display: inline-flex;
     margin: 0 1em;
 }
 
